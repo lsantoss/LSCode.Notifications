@@ -1,6 +1,7 @@
-﻿using NUnit.Framework;
+﻿using LSCode.Notifiables.Notifications;
+using NUnit.Framework;
 
-namespace LSCode.Notifiable.Unit.Test
+namespace LSCode.Notifiables.Unit.Test.Notifications
 {
     internal class NotificationTest
     {

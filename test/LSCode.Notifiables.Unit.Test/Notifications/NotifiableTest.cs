@@ -1,8 +1,9 @@
-﻿using NUnit.Framework;
+﻿using LSCode.Notifiables.Notifications;
+using NUnit.Framework;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace LSCode.Notifiable.Unit.Test
+namespace LSCode.Notifiables.Unit.Test.Notifications
 {
     //Class that inherits from notifiable, as its constructor is protected, so it is necessary for another class to inherit from notifiable to create an instance and use its methods.
     internal class NotifiableClassFake : Notifiable { }
