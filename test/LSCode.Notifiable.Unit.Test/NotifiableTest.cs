@@ -4,13 +4,17 @@ using System.Linq;
 
 namespace LSCode.Notifiable.Unit.Test
 {
+    //Class that inherits from notifiable, as its constructor is protected, so it is necessary for another class to inherit from notifiable to create an instance and use its methods.
+    internal class NotifiableClassFake : Notifiable { }
+
+    //Tests
     internal class NotifiableTest
     {
         [Test]
         public void Construtor_Success()
         {
             //Act
-            var notifiable = new Notifiable();
+            var notifiable = new NotifiableClassFake();
 
             //Assert
             Assert.Multiple(() =>
@@ -28,7 +32,7 @@ namespace LSCode.Notifiable.Unit.Test
             var property = "NotificationProperty";
             var message = "NotificationMessage";
 
-            var notifiable = new Notifiable();
+            var notifiable = new NotifiableClassFake();
 
             //Act
             notifiable.AddNotification(property, message);
@@ -52,7 +56,7 @@ namespace LSCode.Notifiable.Unit.Test
             var property = "NotificationProperty";
             var message = "NotificationMessage";
 
-            var notifiable = new Notifiable();
+            var notifiable = new NotifiableClassFake();
 
             var notification = new Notification(property, message);
 
@@ -84,7 +88,7 @@ namespace LSCode.Notifiable.Unit.Test
             var property3 = "NotificationProperty3";
             var message3 = "NotificationMessage3";
 
-            var notifiable = new Notifiable();
+            var notifiable = new NotifiableClassFake();
 
             IEnumerable<Notification> invalidNotificationList = new List<Notification>
             {
@@ -125,7 +129,7 @@ namespace LSCode.Notifiable.Unit.Test
             var property3 = "NotificationProperty3";
             var message3 = "NotificationMessage3";
 
-            var notifiable = new Notifiable();
+            var notifiable = new NotifiableClassFake();
 
             List<Notification> invalidNotificationList = new List<Notification>
             {
@@ -166,7 +170,7 @@ namespace LSCode.Notifiable.Unit.Test
             var property3 = "NotificationProperty3";
             var message3 = "NotificationMessage3";
 
-            var notifiable = new Notifiable();
+            var notifiable = new NotifiableClassFake();
 
             IList<Notification> invalidNotificationList = new List<Notification>
             {
@@ -207,7 +211,7 @@ namespace LSCode.Notifiable.Unit.Test
             var property3 = "NotificationProperty3";
             var message3 = "NotificationMessage3";
 
-            var notifiable = new Notifiable();
+            var notifiable = new NotifiableClassFake();
 
             ICollection<Notification> invalidNotificationList = new List<Notification>
             {
@@ -248,7 +252,7 @@ namespace LSCode.Notifiable.Unit.Test
             var property3 = "NotificationProperty3";
             var message3 = "NotificationMessage3";
 
-            var notifiable = new Notifiable();
+            var notifiable = new NotifiableClassFake();
 
             IReadOnlyList<Notification> invalidNotificationList = new List<Notification>
             {
@@ -289,7 +293,7 @@ namespace LSCode.Notifiable.Unit.Test
             var property3 = "NotificationProperty3";
             var message3 = "NotificationMessage3";
 
-            var notifiable = new Notifiable();
+            var notifiable = new NotifiableClassFake();
 
             IReadOnlyCollection<Notification> invalidNotificationList = new List<Notification>
             {
@@ -324,9 +328,9 @@ namespace LSCode.Notifiable.Unit.Test
             var property = "NotificationProperty";
             var message = "NotificationMessage";
 
-            var notifiable = new Notifiable();
+            var notifiable = new NotifiableClassFake();
 
-            var invalidNotifiable = new Notifiable();
+            var invalidNotifiable = new NotifiableClassFake();
             invalidNotifiable.AddNotification(property, message);
 
             //Act
@@ -357,12 +361,12 @@ namespace LSCode.Notifiable.Unit.Test
             var property3 = "NotificationProperty3";
             var message3 = "NotificationMessage3";
 
-            var notifiable = new Notifiable();
+            var notifiable = new NotifiableClassFake();
 
-            var invalidNotifiable1 = new Notifiable();
+            var invalidNotifiable1 = new NotifiableClassFake();
             invalidNotifiable1.AddNotification(property1, message1);
 
-            var invalidNotifiable2 = new Notifiable();
+            var invalidNotifiable2 = new NotifiableClassFake();
             invalidNotifiable2.AddNotification(property2, message2);
             invalidNotifiable2.AddNotification(property3, message3);
 
@@ -404,12 +408,12 @@ namespace LSCode.Notifiable.Unit.Test
             var property3 = "NotificationProperty3";
             var message3 = "NotificationMessage3";
 
-            var notifiable = new Notifiable();
+            var notifiable = new NotifiableClassFake();
 
-            var invalidNotifiable1 = new Notifiable();
+            var invalidNotifiable1 = new NotifiableClassFake();
             invalidNotifiable1.AddNotification(property1, message1);
 
-            var invalidNotifiable2 = new Notifiable();
+            var invalidNotifiable2 = new NotifiableClassFake();
             invalidNotifiable2.AddNotification(property2, message2);
             invalidNotifiable2.AddNotification(property3, message3);
 
@@ -451,12 +455,12 @@ namespace LSCode.Notifiable.Unit.Test
             var property3 = "NotificationProperty3";
             var message3 = "NotificationMessage3";
 
-            var notifiable = new Notifiable();
+            var notifiable = new NotifiableClassFake();
 
-            var invalidNotifiable1 = new Notifiable();
+            var invalidNotifiable1 = new NotifiableClassFake();
             invalidNotifiable1.AddNotification(property1, message1);
 
-            var invalidNotifiable2 = new Notifiable();
+            var invalidNotifiable2 = new NotifiableClassFake();
             invalidNotifiable2.AddNotification(property2, message2);
             invalidNotifiable2.AddNotification(property3, message3);
 
@@ -498,12 +502,12 @@ namespace LSCode.Notifiable.Unit.Test
             var property3 = "NotificationProperty3";
             var message3 = "NotificationMessage3";
 
-            var notifiable = new Notifiable();
+            var notifiable = new NotifiableClassFake();
 
-            var invalidNotifiable1 = new Notifiable();
+            var invalidNotifiable1 = new NotifiableClassFake();
             invalidNotifiable1.AddNotification(property1, message1);
 
-            var invalidNotifiable2 = new Notifiable();
+            var invalidNotifiable2 = new NotifiableClassFake();
             invalidNotifiable2.AddNotification(property2, message2);
             invalidNotifiable2.AddNotification(property3, message3);
 
@@ -545,12 +549,12 @@ namespace LSCode.Notifiable.Unit.Test
             var property3 = "NotificationProperty3";
             var message3 = "NotificationMessage3";
 
-            var notifiable = new Notifiable();
+            var notifiable = new NotifiableClassFake();
 
-            var invalidNotifiable1 = new Notifiable();
+            var invalidNotifiable1 = new NotifiableClassFake();
             invalidNotifiable1.AddNotification(property1, message1);
 
-            var invalidNotifiable2 = new Notifiable();
+            var invalidNotifiable2 = new NotifiableClassFake();
             invalidNotifiable2.AddNotification(property2, message2);
             invalidNotifiable2.AddNotification(property3, message3);
 
@@ -592,12 +596,12 @@ namespace LSCode.Notifiable.Unit.Test
             var property3 = "NotificationProperty3";
             var message3 = "NotificationMessage3";
 
-            var notifiable = new Notifiable();
+            var notifiable = new NotifiableClassFake();
 
-            var invalidNotifiable1 = new Notifiable();
+            var invalidNotifiable1 = new NotifiableClassFake();
             invalidNotifiable1.AddNotification(property1, message1);
 
-            var invalidNotifiable2 = new Notifiable();
+            var invalidNotifiable2 = new NotifiableClassFake();
             invalidNotifiable2.AddNotification(property2, message2);
             invalidNotifiable2.AddNotification(property3, message3);
 

@@ -18,7 +18,7 @@ namespace LSCode.Notifiable
 
         /// <summary>Notifiable class constructor.</summary>
         /// <returns>Creates an instance of the Notifiable class.</returns>
-        public Notifiable()
+        protected Notifiable()
         {
             _notifications = new List<Notification>();
             Invalid = false;
