@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\LSCode.Notifiable\LSCode.Notifiable\LSCode.Notifiable.csproj" />
+    <ProjectReference Include="..\..\src\LSCode.Notifiable\LSCode.Notifiable.csproj" />
   </ItemGroup>
 
 </Project>
