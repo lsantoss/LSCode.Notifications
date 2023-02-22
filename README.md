@@ -116,7 +116,13 @@ It is possible to add notifications through the **AddNotification()** method, wh
   void AddNotification(IEnumerable<Notifiable> notifiableList);
 ```
 
-Below is a simple usage example of one of the overloads, in the private method IsValid():
+It is possible to clear the list of notifications and return to the initial state of all properties with the **Clear()** method:
+
+```c#
+  void Clear();
+```
+
+Below is a simple example of using one of the overloads of the **AddNotification()** method, in the private IsValid() method:
 
 ```c#
 using LSCode.Notifications.Models;

@@ -13,14 +13,17 @@
     <RepositoryUrl>https://github.com/lsantoss/LSCode.Notifications</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <PackageTags>LSCode</PackageTags>
-    <PackageReleaseNotes>Package creation.
-Documentation for using the package.</PackageReleaseNotes>
+    <PackageReleaseNotes>Added error handling.
+Flow improvements.
+New Clear() method in Notifiable.
+New unit tests.
+Documentation update.</PackageReleaseNotes>
     <NeutralLanguage>en</NeutralLanguage>
-    <AssemblyVersion>2023.02.22.2</AssemblyVersion>
+    <AssemblyVersion>2023.02.22.3</AssemblyVersion>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
-    <Version>1.1.0</Version>
+    <Version>1.1.5</Version>
   </PropertyGroup>
 
   <ItemGroup>
