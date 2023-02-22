@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace LSCode.Notifiables.Notifications
+namespace LSCode.Notifications.Models
 {
     /// <summary>Helps in managing notifications.</summary>
     public class Notifiable

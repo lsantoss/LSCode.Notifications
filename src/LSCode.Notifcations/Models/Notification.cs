@@ -1,4 +1,4 @@
-﻿namespace LSCode.Notifiables.Notifications
+﻿namespace LSCode.Notifications.Models
 {
     /// <summary>Helps in creating notifications.</summary>
     public sealed class Notification

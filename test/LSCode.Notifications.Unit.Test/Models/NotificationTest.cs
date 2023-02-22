@@ -1,7 +1,7 @@
-﻿using LSCode.Notifiables.Notifications;
+﻿using LSCode.Notifications.Models;
 using NUnit.Framework;
 
-namespace LSCode.Notifiables.Unit.Test.Notifications
+namespace LSCode.Notifications.Unit.Test.Models
 {
     internal class NotificationTest
     {

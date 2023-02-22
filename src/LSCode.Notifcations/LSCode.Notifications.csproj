@@ -7,19 +7,19 @@
     <Company>LSCode</Company>
     <Description>Offers codes to facilitate creation and handling of inconsistency notifications in projects produced by LSCode</Description>
     <Copyright>LSCode</Copyright>
-    <PackageProjectUrl>https://github.com/lsantoss/LSCode.Notifiable</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/lsantoss/LSCode.Notifications</PackageProjectUrl>
     <PackageIcon>LSCodePackageIcon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>https://github.com/lsantoss/LSCode.Notifiable</RepositoryUrl>
+    <RepositoryUrl>https://github.com/lsantoss/LSCode.Notifications</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <PackageTags>LSCode</PackageTags>
     <PackageReleaseNotes>Package creation.
 Documentation for using the package.</PackageReleaseNotes>
     <NeutralLanguage>en</NeutralLanguage>
-    <AssemblyVersion>2023.02.20.1</AssemblyVersion>
+    <AssemblyVersion>2023.02.22.1</AssemblyVersion>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>

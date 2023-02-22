@@ -1,9 +1,9 @@
-# LSCode.Notifiables
+# LSCode.Notifications
 
 ## Application:
 Offers codes to facilitate creation and handling of inconsistency notifications in projects produced by LSCode.
 
-[![NuGet version (LSCode.Notifiables)](https://img.shields.io/nuget/v/LSCode.Notifiables.svg?style=flat-square)](https://www.nuget.org/packages/LSCode.Notifiables)
+[![NuGet version (LSCode.Notifications)](https://img.shields.io/nuget/v/LSCode.Notifications.svg?style=flat-square)](https://www.nuget.org/packages/LSCode.Notifications)
 
 ---
 
@@ -32,7 +32,7 @@ Offers codes to facilitate creation and handling of inconsistency notifications 
 ---
 
 ## How to install:
-- Click on the following link and see here some ways to install: [click here](https://www.nuget.org/packages/LSCode.Notifiables "LSCode.Notifiables page on nuget.org").
+- Click on the following link and see here some ways to install: [click here](https://www.nuget.org/packages/LSCode.Notifications "LSCode.Notifications page on nuget.org").
 
 ---
 
@@ -40,13 +40,13 @@ Offers codes to facilitate creation and handling of inconsistency notifications 
 First install the package, for example:
 
 ```xml
-<PackageReference Include="LSCode.Notifiables" Version="x.x.x" />
+<PackageReference Include="LSCode.Notifications" Version="x.x.x" />
 ```
 
 In the file that you want to use the class, you must import the following namespace:
 
 ```c#
-using LSCode.Notifiables.Notifications;
+using LSCode.Notifications.Models;
 ```
 
 It is composed with 2 properties:
@@ -58,7 +58,7 @@ Then you can create an instance of notification, passing by parameter:
   - **Message**
 
 ```c#
-using LSCode.Notifiables.Notifications;
+using LSCode.Notifications.Models;
 
 namespace MyNamespace
 {
@@ -85,13 +85,13 @@ namespace MyNamespace
 First install the package, for example:
 
 ```xml
-<PackageReference Include="LSCode.Notifiables" Version="x.x.x" />
+<PackageReference Include="LSCode.Notifications" Version="x.x.x" />
 ```
 
 In the file that you want to use the service, you must import the following namespace:
 
 ```c#
-using LSCode.Notifiables.Notifications;
+using LSCode.Notifications.Models;
 ```
 
 Then it will be possible to inherit the notifiable class. It is not possible to create an instance of the class, it is only possible to inherit it.
@@ -119,7 +119,7 @@ It is possible to add notifications through the **AddNotification()** method, wh
 Below is a simple usage example of one of the overloads, in the private method IsValid():
 
 ```c#
-using LSCode.Notifiables.Notifications;
+using LSCode.Notifications.Models;
 
 namespace MyNamespace
 {
