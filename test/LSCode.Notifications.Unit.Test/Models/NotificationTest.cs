@@ -6,12 +6,11 @@ namespace LSCode.Notifications.Unit.Test.Models
     internal class NotificationTest
     {
         [Test]
-        public void Construtor_Success()
+        [TestCase("Property1", "Message1")]
+        [TestCase("Property2", "Message2")]
+        [TestCase("Property3", "Message3")]
+        public void Construtor_Success(string property, string message)
         {
-            //Arrange
-            var property = "Property";
-            var message = "Message";
-
             //Act
             var notification = new Notification(property, message);
 
