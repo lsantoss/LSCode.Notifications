@@ -1,0 +1,10 @@
+﻿[*.cs]
+
+# CA2254: O modelo deve ser uma expressão estática
+dotnet_diagnostic.CA2254.severity = none
+
+# IDE0290: Usar construtor primário
+csharp_style_prefer_primary_constructors = false
+
+# IDE0160: Converter para bloquear o namespace com escopo
+csharp_style_namespace_declarations = file_scoped

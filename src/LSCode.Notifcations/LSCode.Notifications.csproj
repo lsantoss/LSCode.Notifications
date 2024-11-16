@@ -1,33 +1,41 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
-    <Nullable>enable</Nullable>
-    <Authors>LSCode</Authors>
-    <Company>LSCode</Company>
-    <Description>Offers codes to facilitate creation and handling of inconsistency notifications in projects produced by LSCode</Description>
-    <Copyright>LSCode</Copyright>
-    <PackageProjectUrl>https://github.com/lsantoss/LSCode.Notifications</PackageProjectUrl>
-    <PackageIcon>LSCodePackageIcon.png</PackageIcon>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>https://github.com/lsantoss/LSCode.Notifications</RepositoryUrl>
-    <RepositoryType>Git</RepositoryType>
-    <PackageTags>LSCode</PackageTags>
-    <PackageReleaseNotes>Added error handling.
-Flow improvements.
-New Clear() method in Notifiable.
-New unit tests.
-Documentation update.</PackageReleaseNotes>
-    <NeutralLanguage>en</NeutralLanguage>
+    <!-- Project Informations -->
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <RootNamespace>LSCode.Notifications</RootNamespace>
+    <AssemblyName>LSCode.Notifications</AssemblyName>
     <AssemblyVersion>2023.02.22.3</AssemblyVersion>
+    <NeutralLanguage>en</NeutralLanguage>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+    <!-- Package Informations -->
+    <Version>1.2.0</Version>
+    <PackageId>LSCode.Notifications</PackageId>
+    <Title>LSCode.Notifications</Title>
+    <Description>Offers codes to facilitate creation and handling of inconsistency notifications in projects produced by LSCode</Description>
+    <PackageIcon>LSCodePackageIcon.png</PackageIcon>
+    <Company>LSCode</Company>
+    <Authors>LSCode</Authors>
+    <Copyright>LSCode</Copyright>
+    <PackageTags>LSCode</PackageTags>
+    <PackageProjectUrl>https://github.com/lsantoss/LSCode.Notifications</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/lsantoss/LSCode.Notifications</RepositoryUrl>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
-    <Version>1.1.5</Version>
+    <PackageReleaseNotes>
+      Updated .net version.
+      Organization of project files and folders.
+      Unit test refactoring.
+    </PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\docs\package-icon\LSCodePackageIcon.png">
+    <None Include="..\..\docs\images\LSCodePackageIcon.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
