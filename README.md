@@ -10,25 +10,17 @@ It allows you to identify and consolidate failures or error messages in an organ
 
 Type: Class Library.
 
----
-
 ## Framework:
 
 - .Net 8
-
----
 
 ## Dependencies:
 
 - N/A
 
----
-
 ## How to install:
 
 - Click on the following link and see here some ways to install: [click here](https://www.nuget.org/packages/LSCode.Notifications "LSCode.Notifications page on nuget.org").
-
----
 
 ## How to use the Notification class:
 
@@ -49,8 +41,6 @@ It is composed with 2 properties:
 Then you can create an instance of notification, passing by parameter: 
   - Property
   - Message
-
----
 
 ## How to use Notifiable class:
 
