@@ -74,5 +74,5 @@ public class Notifiable
     }
 
     /// <summary>Clear the list of notifications.</summary>
-    public void Clear() => _notifications.Clear();
+    public void ClearNotifications() => _notifications.Clear();
 }

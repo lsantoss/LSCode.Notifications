@@ -128,7 +128,7 @@ internal static class NotifiableTestCaseSource
         new object[] { new List<Notifiable>() }
     ];
 
-    public static readonly object[] Clear_ShouldClearAllNotifications =
+    public static readonly object[] ClearNotifications_ShouldClearAllNotifications =
     [
         new object[]
         {

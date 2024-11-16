@@ -14,7 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{33ED98
 		docs\images\LSCodePackageIcon.png = docs\images\LSCodePackageIcon.png
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CEDFE6DF-5C73-40AA-9965-AA4DAE9634F5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "#Solution Items", "#Solution Items", "{CEDFE6DF-5C73-40AA-9965-AA4DAE9634F5}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 		.gitignore = .gitignore

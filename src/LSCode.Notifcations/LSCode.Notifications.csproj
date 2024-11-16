@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <!-- Project Informations -->
@@ -31,6 +31,7 @@
       Updated .net version.
       Organization of project files and folders.
       Unit test refactoring.
+      Documentation update.
     </PackageReleaseNotes>
   </PropertyGroup>
 

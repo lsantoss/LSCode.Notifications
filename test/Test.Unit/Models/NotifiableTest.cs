@@ -237,15 +237,15 @@ internal class NotifiableTest
     }
 
     [Test]
-    [TestCaseSource(typeof(NotifiableTestCaseSource), nameof(NotifiableTestCaseSource.Clear_ShouldClearAllNotifications))]
-    public void Clear_ShouldClearAllNotifications(IEnumerable<Notification> notifications)
+    [TestCaseSource(typeof(NotifiableTestCaseSource), nameof(NotifiableTestCaseSource.ClearNotifications_ShouldClearAllNotifications))]
+    public void ClearNotifications_ShouldClearAllNotifications(IEnumerable<Notification> notifications)
     {
         //Arrange
         var notifiable = new NotifiableInherited();
         notifiable.AddNotification(notifications);
 
         //Act
-        notifiable.Clear();
+        notifiable.ClearNotifications();
 
         //Assert
         Assert.Multiple(() =>
