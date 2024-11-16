@@ -2,11 +2,13 @@
 
 [![NuGet version (LSCode.Notifications)](https://img.shields.io/nuget/v/LSCode.Notifications.svg?style=flat-square)](https://www.nuget.org/packages/LSCode.Notifications)
 
-## Purpose of the library:
+## Application:
 
 LSCode.Notifications is a library created to facilitate the management and handling of notifications of inconsistencies in projects.
 
 It allows you to identify and consolidate failures or error messages in an organized way, useful for systems that require consistent and clear validations.
+
+Type: Class Library.
 
 ---
 
