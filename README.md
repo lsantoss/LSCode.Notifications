@@ -12,7 +12,7 @@ Type: Class Library.
 
 ## Framework:
 
-- .Net 8
+- .Net 9
 
 ## Dependencies:
 
