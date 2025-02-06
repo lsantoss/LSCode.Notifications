@@ -7,12 +7,12 @@
     <Nullable>disable</Nullable>
     <RootNamespace>LSCode.Notifications</RootNamespace>
     <AssemblyName>LSCode.Notifications</AssemblyName>
-    <AssemblyVersion>2023.02.22.3</AssemblyVersion>
+    <AssemblyVersion>2025.02.05.1</AssemblyVersion>
     <NeutralLanguage>en</NeutralLanguage>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 
     <!-- Package Informations -->
-    <Version>1.2.0</Version>
+    <Version>1.2.1</Version>
     <PackageId>LSCode.Notifications</PackageId>
     <Title>LSCode.Notifications</Title>
     <Description>Offers codes to facilitate creation and handling of inconsistency notifications in projects produced by LSCode</Description>
@@ -28,10 +28,7 @@
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageReleaseNotes>
-      Updated .net version.
-      Organization of project files and folders.
-      Unit test refactoring.
-      Documentation update.
+      Automatic publishing of package versions via pipeline.
     </PackageReleaseNotes>
   </PropertyGroup>
 

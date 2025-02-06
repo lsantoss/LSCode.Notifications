@@ -26,6 +26,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSCode.Notifications", "src
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Unit", "test\Test.Unit\Test.Unit.csproj", "{6DF48380-CBC8-44B8-8112-414B86B39CAF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{9D15802B-5107-428A-8112-498C244F3991}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{BF40969A-0537-4E76-9490-7A35E7B24547}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\deploy_artifacts.yml = .github\workflows\deploy_artifacts.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +55,7 @@ Global
 		{33ED981D-C497-448E-8584-71CFFAAEB7D4} = {FF6A0FDC-6E4C-4FF8-8636-2A94C40CC278}
 		{D44B47BE-0EB6-4A61-889D-5836582050C6} = {2D27B085-7058-4589-A387-DA434F1CFC0A}
 		{6DF48380-CBC8-44B8-8112-414B86B39CAF} = {C5AE5AB5-77BF-4238-8FB3-350AE5305A32}
+		{BF40969A-0537-4E76-9490-7A35E7B24547} = {9D15802B-5107-428A-8112-498C244F3991}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {295F2150-A842-4BF8-AD3D-E36A42A040BD}
